@@ -1,0 +1,4 @@
+SELECT * FROM CW1.Users;
+SELECT * FROM CW1.Trail;
+SELECT * FROM CW1.Activity;
+SELECT * FROM CW1.Review;
