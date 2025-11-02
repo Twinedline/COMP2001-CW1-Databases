@@ -1,1 +1,3 @@
-SELECT * FROM CW1.UserProfile;
+
+EXEC CW1.DeleteUser 9;
+EXEC CW1.ReadUsers;
