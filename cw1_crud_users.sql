@@ -56,3 +56,16 @@ END;
 EXEC CW1.ReadUsers;
 
 
+EXEC CW1.CreateUser 'Rebecca@email.com', 'password123', 'Rebecca', 'Becca';
+EXEC CW1.CreateUser 'Joey@email.com', 'password741', 'Joey', 'Mayers';
+
+
+EXEC CW1.ReadUsers;
+
+EXEC CW1.UpdateUser 1, 'David@email.com', 'David', 'Martinez';
+
+EXEC CW1.ReadUsers;
+
+EXEC CW1.DeleteUser 2;
+
+EXEC CW1.ReadUsers;

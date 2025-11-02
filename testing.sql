@@ -1,3 +1,2 @@
-
-EXEC CW1.DeleteUser 9;
-EXEC CW1.ReadUsers;
+EXEC CW1.CreateUser 'hange@email.com', 'eyepatch', 'Hange', 'Zoe';
+SELECT * FROM CW1.UserLog;
